@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Activité d'Apprentissage Machine</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Inclusion de p5.js et de l'addon p5.dom pour créer des éléments DOM -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.dom.min.js"></script>
+</head>
+<body>
+  <h1>Activité d'Apprentissage Machine</h1>
+  
+  <div class="container-wrapper">
+    <!-- Le canvas (la grille d'entrées) sera créé dans ce conteneur par p5.js -->
+    <div id="canvas-container"></div>
+    
+    <!-- Conteneur pour les sliders de poids -->
+    <div id="sliders-container">
+      <!-- Les curseurs seront générés par le script -->
+    </div>
+    
+    
+    <!-- Conteneur pour afficher la sortie -->
+    <div id="output-container">
+      <h3 id="output-text">0%</p>
+    </div>
+  </div>
+  
+  <script src="sketch_activite.js"></script>
+</body>
+</html>
