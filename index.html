@@ -6,15 +6,36 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Apprentissage Machine Interactif</h1>
-  <p>
-    Ce projet permet de visualiser l'apprentissage machine en ajustant manuellement les poids d'un perceptron simple.
-    Vous allez pouvoir créer une image en activant des pixels sur une grille, puis ajuster les poids associés à chaque pixel (et un biais) pour observer l'effet sur la sortie.
-  </p>
-  <form action="activite.html" method="GET">
-    <label for="gridSize">Taille de la grille (n x n) :</label>
-    <input type="number" id="gridSize" name="n" value="4" min="1" required>
-    <button type="submit">Démarrer l'activité</button>
-  </form>
+  <div class="container">
+    <h1>Apprentissage Machine Interactif</h1>
+    
+    <div class="description">
+      <p>
+        Ce projet permet de visualiser l'apprentissage machine en ajustant manuellement les poids d'un perceptron simple.
+        Vous allez pouvoir créer une image en activant des pixels sur une grille, puis ajuster les poids associés à chaque pixel (et un biais) pour observer l'effet sur la sortie.
+      </p>
+      
+      <h2>Ce que vous allez apprendre</h2>
+      <ul>
+        <li>Comment fonctionne un perceptron simple</li>
+        <li>L'impact des poids sur la décision du neurone</li>
+        <li>Le rôle du biais dans l'apprentissage</li>
+      </ul>
+    </div>
+
+    <div class="start-activity">
+      <form action="activite.html" method="GET">
+        <label for="gridSize">Taille de la grille (n x n) :</label>
+        <input type="number" id="gridSize" name="n" value="4" min="1" required>
+        <button type="submit">Démarrer l'activité</button>
+      </form>
+    </div>
+
+    <div class="attribution">
+      <p>Cette activité est inspirée de la série de : 
+        <a href="https://www.youtube.com/watch?v=l-9ALe3U-Fg" target="_blank">cette vidéo de Welch Labs</a>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
