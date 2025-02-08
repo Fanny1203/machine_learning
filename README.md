@@ -11,7 +11,7 @@ Cette application web interactive permet aux utilisateurs de comprendre visuelle
 
 ## Comment utiliser
 
-1. Ouvrez `activite.html` dans un navigateur web
+1. Ouvrez `activite.html` dans un navigateur web, de préférence sur un ordinateur
 2. Cliquez sur les cellules de la grille pour les activer (blanc) ou désactiver (noir)
 3. Ajustez les poids avec les sliders verticaux correspondant à chaque cellule
 4. Ajustez le biais avec le slider horizontal en bas
@@ -31,4 +31,4 @@ Cette application web interactive permet aux utilisateurs de comprendre visuelle
 
 ## Inspiration
 
-Cette activité pédagogique est inspirée de la série "Neural Networks Demystified" de Welch Labs, en particulier la [Partie 2 sur la Propagation Avant](https://www.youtube.com/watch?v=l-9ALe3U-Fg). La série offre une excellente introduction aux réseaux de neurones et a influencé la conception de cette interface interactive.
+Cette activité pédagogique est inspirée de  [cette vidéo de Welch Labs](https://www.youtube.com/watch?v=l-9ALe3U-Fg). 
